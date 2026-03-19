@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Puckuomi</title>
+    <link rel="stylesheet" href="style/styles.css" />
+  </head>
+
+  <body>
+    <div id="container">
+      <header>
+        <h1>Contact</h1>
+      </header>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="articles.html">Articles</a></li>
+          <li><a href="author.html">Author Bio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <h2>Article Index</h2>
+
+        <label for="sortSelect"><b>Sort Articles:</b></label>
+        <select id="sortSelect" onchange="sortArticles()">
+          <option value="date">Newest First</option>
+          <option value="az">A - Z</option>
+        </select>
+
+        <br /><br />
+
+        <ul id="articleList">
+           <ul>
+          <li><a href="articles/test.html">article here?</a></li>
+        </ul>
+      </main>
+
+      <footer>
+        <p>© 2026 Puckuomi</p>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,102 @@
+body {
+  background: #f6f6f6;
+  font-family: "Times New Roman", serif;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 900px;
+  margin: auto;
+  background: white;
+  border: 1px solid #aaa;
+}
+
+.site-header {
+  background: #eaeaea;
+  border-bottom: 1px solid #999;
+  padding: 10px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+.title-area h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.tagline {
+  margin: 0;
+  font-style: italic;
+  color: #444;
+}
+.logo {
+  width: 120px;
+  display: block;
+  margin: auto;
+}
+
+.tagline {
+  font-style: italic;
+  color: #444;
+}
+
+nav {
+  background: #d8e2f1;
+  border-bottom: 1px solid #999;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  padding: 10px 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #003399;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+  line-height: 1.6;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  background: #eee;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.carousel img {
+  height: 350px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
